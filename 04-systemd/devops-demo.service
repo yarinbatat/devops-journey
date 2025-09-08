@@ -1,0 +1,10 @@
+[Unit]
+Description=DevOps Demo Service
+
+[Service]
+ExecStart=/home/yarin/devops-demo/demo.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
