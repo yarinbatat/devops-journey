@@ -1,0 +1,3 @@
+htop
+curl
+net-tools
