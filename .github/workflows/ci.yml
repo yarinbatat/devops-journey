@@ -1,0 +1,18 @@
+name: CI Demo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: checkout code
+        uses: actions\checkout@v4
+
+      - name: run simple test
+        run: echo "CI Pipeline running seccessfully"
+ 
